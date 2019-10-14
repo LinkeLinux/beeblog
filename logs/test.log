@@ -1,0 +1,133 @@
+2019/09/26 20:55:25.324 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/09/26 20:55:42.995 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     3.0001ms|   match|[44m GET     [0m /     r:/
+2019/09/26 20:55:43.583 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 20:55:44.996 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 20:55:45.014 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/img/favicon.png
+2019/09/26 20:55:49.698 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     3.0001ms|   match|[44m GET     [0m /login   r:/login
+2019/09/26 20:55:54.932 [server.go:2846]  [HTTP] http: multiple response.WriteHeader calls
+2019/09/26 20:55:54.934 [D] [server.go:2619]  |            ::1|[47m 301 [0m|     2.0001ms|   match|[46m POST    [0m /login   r:/login
+2019/09/26 20:55:55.125 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /favicon.ico
+2019/09/26 20:56:30.489 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     2.0001ms|   match|[44m GET     [0m /login   r:/login
+2019/09/26 20:56:32.088 [server.go:2846]  [HTTP] http: multiple response.WriteHeader calls
+2019/09/26 20:56:32.089 [D] [server.go:2619]  |            ::1|[47m 301 [0m|          1ms|   match|[46m POST    [0m /login   r:/login
+2019/09/26 20:56:37.592 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/09/26 20:56:37.636 [D] [server.go:2619]  |            ::1|[47m 301 [0m|           0s|   match|[46m POST    [0m /login   r:/login
+2019/09/26 20:56:37.693 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     5.0003ms|   match|[44m GET     [0m /     r:/
+2019/09/26 20:56:37.712 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 20:56:37.760 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 20:56:39.340 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     4.0002ms|   match|[44m GET     [0m /login   r:/login
+2019/09/26 20:56:42.394 [D] [server.go:2619]  |            ::1|[47m 301 [0m|           0s|   match|[46m POST    [0m /login   r:/login
+2019/09/26 20:56:42.410 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     8.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 20:56:42.432 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 20:56:42.485 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     2.0001ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:01.925 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     8.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:03:01.953 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:02.063 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:02.864 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     7.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:03:02.898 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:02.936 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:03.475 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     6.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:03:03.511 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:03.546 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:03.666 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     9.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:03:03.692 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     1.0001ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:03.728 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:03.832 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     7.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:03:03.859 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:03.900 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:03.963 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     3.0002ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:03:03.984 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:04.029 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:09.637 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/09/26 21:03:12.091 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     4.0003ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:03:12.124 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:03:12.165 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     1.0001ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:11.062 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     7.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:08:11.107 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     1.0001ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:11.140 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:11.744 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     8.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:08:11.778 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     7.0004ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:11.799 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:11.925 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     7.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:08:11.952 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:11.981 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:12.111 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     7.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:08:12.140 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:12.163 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:12.306 [D] [server.go:2619]  |            ::1|[42m 200 [0m|    10.0006ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:08:12.345 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     1.0001ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:12.366 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:12.442 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     2.0001ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:08:12.463 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:12.487 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:12.616 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     8.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:08:12.638 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:12.665 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:12.793 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     9.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:08:12.817 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     1.0001ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:12.965 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     6.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:08:12.987 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:13.033 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:14.268 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     3.0002ms|   match|[44m GET     [0m /login   r:/login
+2019/09/26 21:08:17.437 [D] [server.go:2619]  |            ::1|[47m 301 [0m|           0s|   match|[46m POST    [0m /login   r:/login
+2019/09/26 21:08:17.453 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     6.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:08:17.473 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:08:17.503 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:17.283 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     9.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:51:17.319 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     5.0003ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:17.371 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:18.003 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     8.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:51:18.035 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:18.066 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:18.225 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     6.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:51:18.264 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:18.294 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:18.410 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     6.0003ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:51:18.437 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     1.0001ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:18.473 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:18.623 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     8.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:51:18.651 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:18.679 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:18.847 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     9.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 21:51:18.880 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 21:51:18.912 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:01:13.315 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/09/26 22:01:24.753 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     8.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:01:24.782 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:01:24.852 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     1.0001ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:01:28.505 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     4.0003ms|   match|[44m GET     [0m /login   r:/login
+2019/09/26 22:03:22.913 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/09/26 22:03:26.215 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     6.0003ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:26.236 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:27.506 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     8.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:27.538 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:27.713 [D] [server.go:2619]  |            ::1|[42m 200 [0m|    11.0006ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:27.742 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:27.890 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     5.0003ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:27.917 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:28.042 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     4.0002ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:28.067 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:28.191 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     8.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:28.224 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:28.327 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     4.0002ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:28.352 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:28.516 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     6.0004ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:28.539 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:28.689 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     8.0005ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:28.709 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:29.183 [D] [server.go:2619]  |            ::1|[42m 200 [0m|    10.0006ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:29.210 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:29.443 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     6.0003ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:29.476 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:29.613 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     6.0003ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:29.642 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:29.798 [D] [server.go:2619]  |            ::1|[42m 200 [0m|    12.0007ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:29.823 [D] [server.go:2619]  |            ::1|[43m 404 [0m|     1.0001ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:33.883 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     2.0001ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:33.905 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:34.671 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     6.0003ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:34.700 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:34.855 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     3.0002ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:34.881 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/26 22:03:35.038 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     9.0006ms|   match|[44m GET     [0m /     r:/
+2019/09/26 22:03:35.075 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js

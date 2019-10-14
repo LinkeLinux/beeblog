@@ -1,0 +1,11 @@
+2019/09/24 22:26:12.089 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/09/24 22:27:12.135 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/09/24 22:27:36.097 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/09/24 22:29:02.696 [I] [asm_amd64.s:2337]  http server Running on http://:8080
+2019/09/24 22:29:18.945 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     4.0002ms|   match|[44m GET     [0m /login   r:/login
+2019/09/24 22:29:20.914 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     2.0002ms|   match|[44m GET     [0m /     r:/
+2019/09/24 22:29:21.566 [D] [server.go:2619]  |            ::1|[43m 404 [0m|          1ms| nomatch|[44m GET     [0m /static/js/bootstap.min.js
+2019/09/24 22:29:23.108 [D] [server.go:2619]  |            ::1|[42m 200 [0m|    17.0009ms|   match|[44m GET     [0m /login   r:/login
+2019/09/24 22:29:29.252 [D] [server.go:2619]  |            ::1|[47m 301 [0m|          1ms|   match|[46m POST    [0m /login   r:/login
+2019/09/24 22:29:29.268 [D] [server.go:2619]  |            ::1|[42m 200 [0m|     2.0001ms|   match|[44m GET     [0m /     r:/
+2019/09/24 22:29:29.334 [D] [server.go:2619]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/bootstap.min.js
